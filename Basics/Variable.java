@@ -14,7 +14,7 @@ public class Variable {
     int sum= a+b;
     System.out.print("The sum is : ");
     System.out.println(sum);
-    System.out.printf("Thnaks for ");
+    System.out.print("Thnaks for ");
     sc.close();
   }
 }
