@@ -18,4 +18,19 @@ public class Variable {
     sc.close();
   }
 }
+// How to take Character as Input
 
+//import java.util.Scanner;
+//
+//public class Variables {
+//  public static void main(String[] args) {
+//
+//    Scanner sc = new Scanner(System.in);
+//    char c =  sc.next().charAt(0);
+//
+//       char c = 'A';
+//
+//    System.out.println((int)c);
+//
+//  }
+//}
