@@ -1,5 +1,4 @@
 package ClassAndObject;
-
 abstract class shape{
     abstract void Area(double r,double l,double b);
      void Method (){
