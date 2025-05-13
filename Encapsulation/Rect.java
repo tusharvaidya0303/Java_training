@@ -22,9 +22,9 @@ class Rectangle{
 public class Rect {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter length : ");
+        System.out.print("Enter length of Rectangle : ");
         int a = sc.nextInt();
-        System.out.print("Enter Width : ");
+        System.out.print("Enter Width of Rectangle : ");
         int b = sc.nextInt();
         Rectangle obj = new Rectangle();
         obj.setLength(a);
