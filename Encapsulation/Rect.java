@@ -10,11 +10,9 @@ class Rectangle{
     public void setWidth(int Width) {
         this.Width = Width;
     }
-
     public int getArea() {
         return Length*Width;
     }
-
     public int getPerimeter() {
         return 2*(Length+Width);
     }
