@@ -17,7 +17,8 @@ class Human implements Walkable,Runnable{
     public void run() {
         System.out.println("Humans can Run also");
     }
-
+}
+class main_1 {
     public static void main(String[] args) {
         Human obj = new Human();
         obj.walk();
