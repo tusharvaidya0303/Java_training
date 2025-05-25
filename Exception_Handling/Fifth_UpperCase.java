@@ -1,6 +1,6 @@
 package Exception_Handling;
-import java.util.*;
-public class Fourth_upperCase {
+import java.util.Scanner;
+public class Fifth_UpperCase {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string : ");
@@ -9,12 +9,11 @@ public class Fourth_upperCase {
             str = null;
         }
         try {
-            System.out.println(str);
-            System.out.println("Length : "+str.length());
+            System.out.println("String entered : "+str);
+            System.out.println("UpperCase : "+str.toUpperCase());
         } catch (Exception e) {
             System.out.println("The string is Empty");
         }
         sc.close();
     }
 }
-
