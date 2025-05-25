@@ -7,14 +7,14 @@ public class Fourth_upperCase {
         String str = sc.nextLine();
         if (str.isEmpty()) {
             str = null;
-            try {
-                System.out.println(str);
-                System.out.println("Length : "+str.length());
-            } catch (Exception e) {
-                System.out.println("The string is Empty");
-            }
-            sc.close();
         }
+        try {
+            System.out.println(str);
+            System.out.println("Length : "+str.length());
+        } catch (Exception e) {
+            System.out.println("The string is Empty");
+        }
+        sc.close();
     }
 }
 
