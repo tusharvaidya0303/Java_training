@@ -5,7 +5,16 @@ public class Fourth_upperCase {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string : ");
         String str = sc.nextLine();
-        System.out.println(str);
-        sc.close();
+        if (str.isEmpty()) {
+            str = null;
+            try {
+                System.out.println(str);
+                System.out.println("Length : "+str.length());
+            } catch (Exception e) {
+                System.out.println("The string is Empty");
+            }
+            sc.close();
+        }
     }
 }
+
