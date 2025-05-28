@@ -12,7 +12,7 @@ public class Hashmap {
         System.out.println(map.getOrDefault("id3",4));     // not in list print default value
         System.out.println(map.getOrDefault("id0",null)); //if in list print he value
 
-        System.out.println("Shows keys : "+map.keySet());
-        System.out.println("Shows values : "+map.values());
+        System.out.println("Shows keys : "+map.keySet());   //to print keys only
+        System.out.println("Shows values : "+map.values()); //to print values only
     }
 }
