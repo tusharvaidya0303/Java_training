@@ -1,5 +1,4 @@
 package DSA;
-
 import java.util.HashMap;
 public class Hashmap {
     public static void main(String[] args) {
@@ -15,6 +14,5 @@ public class Hashmap {
 
         System.out.println("Shows keys : "+map.keySet());
         System.out.println("Shows values : "+map.values());
-
     }
 }
