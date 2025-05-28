@@ -1,6 +1,5 @@
-package DSA;
+package HashMaps;
 
-import java.util.HashSet;  //used to avoid dublicate of elements of array
 import java.util.TreeSet;   //used to avoid dublicate and sort array.
 
 public class Sets {

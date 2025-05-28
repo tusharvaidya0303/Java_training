@@ -1,6 +1,6 @@
-package DSA;
+package HashMaps;
 import java.util.HashMap;
-public class Hashmap {
+public class Hashmap_1 {
     public static void main(String[] args) {
         HashMap<String,Integer> map = new HashMap<>();
         map.put("id0",1);
