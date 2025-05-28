@@ -1,7 +1,6 @@
 package DSA;
 
 import java.util.HashMap;
-
 public class Hashmap_2 {
     public static void main(String[] args) {
         String str="programming";
