@@ -13,11 +13,11 @@ public class Arraylist {
         list.set(2,3);
         System.out.println(list);
 
-//        // add element in between
-//        list.add(1,1);
-//        list.add(2,2);
-//        System.out.println(list);
-//
+        // add element in between
+        list.add(1,1);
+        list.add(2,2);
+        System.out.println(list);
+
 //        //Delete an element
 //        list.remove(1);
 //        System.out.println(list);
