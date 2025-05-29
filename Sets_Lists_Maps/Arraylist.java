@@ -22,9 +22,9 @@ public class Arraylist {
         list.remove(1);
         System.out.println(list);
 
-//        //size of list
-//        System.out.println(list.size());
-//
+        //size of list
+        System.out.println(list.size());
+
 //        //loop in arraylist
 //        for(int i=0,i<list.size(),i++){
 
