@@ -18,10 +18,10 @@ public class Arraylist {
         list.add(2,2);
         System.out.println(list);
 
-//        //Delete an element
-//        list.remove(1);
-//        System.out.println(list);
-//
+        //Delete an element
+        list.remove(1);
+        System.out.println(list);
+
 //        //size of list
 //        System.out.println(list.size());
 //
