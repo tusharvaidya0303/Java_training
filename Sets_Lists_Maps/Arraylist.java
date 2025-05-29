@@ -9,7 +9,9 @@ public class Arraylist {
         list.add(6);
         System.out.println(list);
 
-        //
+        //set element or takes its place
+        list.set(2,3);
+        System.out.println(list);
 
 //        // add element in between
 //        list.add(1,1);
