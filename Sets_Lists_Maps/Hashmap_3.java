@@ -1,4 +1,4 @@
-package HashMaps;
+package Sets_Lists_Maps;
 
 import java.util.HashMap;
 
