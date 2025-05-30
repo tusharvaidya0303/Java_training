@@ -1,4 +1,4 @@
-package Sets_Lists_Maps;
+package CollectionFramework;
 import java.util.ArrayList;
 import java.util.Collections;
 public class Arraylist {
