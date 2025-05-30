@@ -6,7 +6,6 @@ class detail{
     public void setId(int id) {
         this.id = id;
     }
-
     public int getId() {
         return id;
     }
@@ -14,7 +13,6 @@ class detail{
     public void setName(String name) {
         this.name = name;
     }
-
     public String getName() {
         return name;
     }
