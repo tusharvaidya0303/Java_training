@@ -1,4 +1,4 @@
-package Sets_Lists_Maps;
+package CollectionFramework;
 import java.util.HashSet;   //to avoid dublicates
 public class Sets {
     public static void main(String[] args) {
