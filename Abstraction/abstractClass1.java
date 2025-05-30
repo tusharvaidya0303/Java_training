@@ -1,4 +1,4 @@
-package ClassAndObject;
+package Abstraction;
 
 abstract class Payment {
 
