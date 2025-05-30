@@ -1,4 +1,4 @@
-package Sets_Lists_Maps;
+package CollectionFramework;
 
 import java.util.TreeSet;   //used to avoid dublicate and sort array.
 
