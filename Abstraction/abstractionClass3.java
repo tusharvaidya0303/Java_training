@@ -1,4 +1,4 @@
-package ClassAndObject;
+package Abstraction;
 
 abstract class AnimalSounds{
       abstract void soo (String s);
