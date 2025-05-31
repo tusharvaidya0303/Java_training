@@ -9,8 +9,9 @@ public class Add_2array {
         for(int i=0;i<arr1.length;i++){
             sum[i]=arr1[i]+arr2[i];
         }
-        for(int i=0;i<arr1.length;i++){
-            System.out.println("Sum is : "+ sum[i]);
+        System.out.println("The sum is : ");
+        for(int num : sum){
+            System.out.print(num+" ");
         }
         sc.close();
     }

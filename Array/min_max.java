@@ -9,8 +9,8 @@ public class min_max {
         for (int i = 0; i < size; i++) {
             arr[i] = sc.nextInt();
         }
-            int max = arr[0];
-            int min = arr[0];
+            int max = Integer.MIN_VALUE;
+            int min = Integer.MAX_VALUE;
             for (int j = 0; j < arr.length; j++) {
                 if (arr[j] > max) {
                     max = arr[j];

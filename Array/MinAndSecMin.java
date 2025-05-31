@@ -1,6 +1,8 @@
 package Array;
+
 import java.util.Scanner;
-public class MaxAndSecMax {
+
+public class MinAndSecMin {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Size of array : ");
@@ -10,17 +12,17 @@ public class MaxAndSecMax {
         for (int i=0;i<size;i++){
             arr[i]= sc.nextInt();
         }
-        int Max = Integer.MIN_VALUE;
-        int secondMax = Integer.MIN_VALUE;
+        int Min = Integer.MAX_VALUE;
+        int secondMin = Integer.MAX_VALUE;
         for (int num : arr){
-            if (num>Max){
-                secondMax = Max;
-                Max = num;
-            } else if (num > secondMax && num !=Max) {
-                secondMax=num;
+            if (num<Min){
+                secondMin = Min;
+                Min = num;
+            } else if (num < secondMin && num !=Min) {
+                secondMin=num;
             }
         }
-        System.out.println("Maximum Num is : "+Max);
-        System.out.println("SecondMax Num is : "+secondMax);
+        System.out.println("Minimum Num is : "+Min);
+        System.out.println("SecondMin Num is : "+secondMin);
     }
 }
