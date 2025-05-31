@@ -1,4 +1,4 @@
-package Inheritance;
+package Interface;
 
 interface Client {
     void print();
