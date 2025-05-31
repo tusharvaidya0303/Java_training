@@ -5,7 +5,6 @@ abstract class shape{
         System.out.println("===================//=====================");
     }
 }
-
 class CircleNew extends shape{
     void  Area (double r,double l,double b ){
         double a = 3.14*r*r;

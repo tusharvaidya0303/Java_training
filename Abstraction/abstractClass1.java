@@ -1,7 +1,6 @@
 package Abstraction;
 
 abstract class Payment {
-
     abstract void pay(int a);
     void success(){
         System.out.println("Payment done ...");
@@ -17,7 +16,6 @@ class NetPayment extends Payment {
         System.out.println("Pay via NetBanking "+b);
     }
 }
-
 public class abstractClass1 {
     public static void main(String[] args) {
         Payment obj = new UpiPayment();
