@@ -1,4 +1,4 @@
-package Inheritance;
+package Interface;
 
 public interface Shape_1 {
    void areaOfCircle();
