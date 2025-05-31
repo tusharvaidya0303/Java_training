@@ -1,4 +1,4 @@
-package Inheritance;
+package Interface;
 
 public interface Animal_2 {
     void makeSound();

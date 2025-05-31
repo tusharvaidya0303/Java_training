@@ -5,15 +5,12 @@ abstract class AnimalSounds{
       void Method(){
           System.out.println("new Sound");
       }
-
 }
-
 class dogVoice1 extends AnimalSounds{
     void soo(String s ){
         System.out.println("Dog Voice :"+s);
     }
 }
-
 class catVoice1 extends  AnimalSounds{
     void soo (String s){
         System.out.println("Cat Voice : "+s);
