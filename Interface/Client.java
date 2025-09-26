@@ -15,7 +15,7 @@ class Dev implements Client{
         System.out.println("Show the Menu");
     }
 }
-class main{
+class Main {
     public static void main(String[] args) {
         Dev obj = new Dev();
         obj.print();

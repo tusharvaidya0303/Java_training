@@ -37,5 +37,6 @@ public class rect_calculate {
         int width= sc.nextInt();
         Rectangle obj=new Rectangle(length,width);
         obj.display();
+        sc.close();
     }
 }

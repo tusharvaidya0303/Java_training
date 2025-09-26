@@ -19,5 +19,6 @@ public class Even_Odd {
             System.out.println("You are an Adult and eligible to Vote.");
         }else
             System.out.println("Sorry! you are not an Adult.");
+        sc.close();
     }
 }

@@ -1,6 +1,5 @@
 package FunctionAndMethods;
 import java.util.*;
-import java.util.stream.StreamSupport;
 
 public class factorial {
     public static void printFactorial(int a){

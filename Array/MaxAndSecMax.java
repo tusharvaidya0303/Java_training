@@ -22,5 +22,7 @@ public class MaxAndSecMax {
         }
         System.out.println("Maximum Num is : "+Max);
         System.out.println("SecondMax Num is : "+secondMax);
+        sc.close();
+
     }
 }

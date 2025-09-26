@@ -20,5 +20,7 @@ public class min_max {
                 }
                 System.out.println("Maximum value is : " + max);
                 System.out.println("Minimum value is : " + min);
+                sc.close();
+
             }
         }

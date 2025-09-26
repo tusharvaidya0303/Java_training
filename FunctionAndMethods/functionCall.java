@@ -9,5 +9,6 @@ public class functionCall {
         String name= sc.next();
 
         printMyName(name);
+        sc.close();
     }
 }

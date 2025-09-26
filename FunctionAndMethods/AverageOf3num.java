@@ -16,5 +16,6 @@ public class AverageOf3num {
         int avg=0;
 
         average(a,b,c,avg);
+        sc.close();
     }
 }

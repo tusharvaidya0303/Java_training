@@ -21,5 +21,6 @@ public class CountEvenOdd {
         }
         System.out.println("No. of evens in array : "+EvenCount);
         System.out.println("No. of Odds in array : "+OddCount);
+        sc.close();
     }
 }

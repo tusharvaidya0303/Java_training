@@ -29,5 +29,6 @@ public class Rect {
         obj.setWidth(b);
         System.out.println("Area is : "+obj.getArea());
         System.out.println("Perimeter is : "+obj.getPerimeter());
+        sc.close();
     }
 }

@@ -19,5 +19,6 @@ public class Deletion {
         for (int i=0;i<size;i++){             //Can't use for-each loop
             System.out.println(arr[i]+" ");
         }
+        sc.close();
     }
 }

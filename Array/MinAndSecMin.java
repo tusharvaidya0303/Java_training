@@ -24,5 +24,7 @@ public class MinAndSecMin {
         }
         System.out.println("Minimum Num is : "+Min);
         System.out.println("SecondMin Num is : "+secondMin);
+        sc.close();
+
     }
 }

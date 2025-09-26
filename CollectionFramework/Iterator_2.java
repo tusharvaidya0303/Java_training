@@ -29,9 +29,10 @@ public class Iterator_2 {
             String backward = it.previous();
             count++;
             if (count != names.size()){
-                it.set("Hello");
+                it.set("Hello " + backward);
             }
         }
         System.out.println(names+" ");
+
     }
 }

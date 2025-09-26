@@ -32,5 +32,6 @@ public class practical_Questions {
         int end=sc.nextInt();
         System.out.println("Even num in range is : ");
         range(start,end);
+        sc.close();
     }
 }

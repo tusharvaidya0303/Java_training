@@ -12,6 +12,7 @@ public class product {
         int b= sc.nextInt();
 
         System.out.println("Product of 2 no. : "+calculateProduct(a,b));
+        sc.close();
     }
 
 }

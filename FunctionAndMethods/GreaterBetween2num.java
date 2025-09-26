@@ -16,5 +16,6 @@ public class GreaterBetween2num {
         System.out.print("Enter second no. : ");
         int b= sc.nextInt();
         greater(a,b);
+        sc.close();
     }
 }

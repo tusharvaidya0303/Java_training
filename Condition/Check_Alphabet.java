@@ -3,9 +3,9 @@ import java.util.*;
 public class Check_Alphabet {
     public static void main(String[] args)
     {
-        Scanner input = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter the Character :");
-        char ch = input.next().charAt(0);
+        char ch = sc.next().charAt(0);
 
         if(ch>='a' && ch<='z' || ch>='A' && ch<='Z')
         {
@@ -15,5 +15,6 @@ public class Check_Alphabet {
         {
             System.out.println("This is a Not Alphabet");
         }
+        sc.close();
     }
 }

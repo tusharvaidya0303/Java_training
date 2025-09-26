@@ -4,7 +4,7 @@ class kid{
     int age =20;
     kid(String firstName,int age){
         this.firstName=firstName;
-        age=age;
+        this.age=age;
         System.out.println(firstName+" "+age);
     }
 }

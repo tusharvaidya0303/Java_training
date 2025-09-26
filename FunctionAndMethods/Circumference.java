@@ -10,5 +10,6 @@ public class Circumference {
         double r = sc.nextDouble();
 
         System.out.println("Circumference of Circle is : "+circumOfCircle(r));
+        sc.close();
     }
 }

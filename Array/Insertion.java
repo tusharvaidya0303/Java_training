@@ -23,5 +23,6 @@ public class Insertion {
         for (int print : arr){
             System.out.println(print+" ");
         }
+        sc.close();
     }
 }
