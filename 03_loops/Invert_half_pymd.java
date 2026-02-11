@@ -1,4 +1,4 @@
-package loops;
+
 
 public class Invert_half_pymd {
     public static void main(String[] args) {

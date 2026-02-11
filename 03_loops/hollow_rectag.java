@@ -1,4 +1,4 @@
-package loops;
+
 
 public class hollow_rectag {
     public static void main(String[] args) {

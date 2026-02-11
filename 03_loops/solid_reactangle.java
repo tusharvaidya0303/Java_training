@@ -1,4 +1,4 @@
-package loops;
+
 public class solid_reactangle {
     public static void main(String[] args) {
         int a = 4;
