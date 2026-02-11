@@ -1,4 +1,4 @@
-package Condition;
+
 import java.util.*;
 public class Check_Alphabet {
     public static void main(String[] args)

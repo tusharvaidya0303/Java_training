@@ -1,4 +1,4 @@
-package Condition;
+
 import java.util.*;
 public class else_if {
     public static void main(String[] args) {

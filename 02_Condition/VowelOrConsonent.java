@@ -1,4 +1,4 @@
-package Condition;
+
 import java.util.*;
 public class VowelOrConsonent {
     public static void main(String[] args) {

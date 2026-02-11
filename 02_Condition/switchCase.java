@@ -1,4 +1,4 @@
-package Condition;
+
 import java.util.*;
 public class switchCase {
     public static void main(String[] args) {
