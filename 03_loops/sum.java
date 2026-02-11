@@ -10,6 +10,11 @@ public class sum {
             System.out.println("Enter the number : ");
             int number = sc.nextInt();
 
+            if (number % 2 == 0) {
+                int evenSum += number;
+            }else{
+                int oddSum += number;
+            }
             
         }
     }
