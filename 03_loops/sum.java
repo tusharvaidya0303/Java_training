@@ -25,5 +25,7 @@ public class sum {
         }while(choice == 1);
         System.out.println("Sum of Even numbers : "+evenSum);
         System.out.println("Sum of Odd numbers : "+oddSum);
+
+        sc.close();
     }
 }
