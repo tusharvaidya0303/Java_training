@@ -1,4 +1,3 @@
-package FunctionAndMethods;
 
 public class Static_NonStatic {
 

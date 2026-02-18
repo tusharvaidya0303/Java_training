@@ -1,4 +1,3 @@
-package FunctionAndMethods;
 
 public class Str_sort {
     static void bSort() {
