@@ -1,4 +1,4 @@
-package FunctionAndMethods;
+
 import java.util.*;
 public class product {
     public static int calculateProduct(int a, int b){
