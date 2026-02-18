@@ -1,4 +1,3 @@
-package FunctionAndMethods;
 import java.util.Scanner;
 public class practical_Questions {
 

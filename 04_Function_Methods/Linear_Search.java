@@ -1,4 +1,3 @@
-package FunctionAndMethods;
 
 public class Linear_Search {
     static int search(int[]arr){

@@ -1,4 +1,4 @@
-package FunctionAndMethods;
+
 import java.util.*;
 public class GreaterBetween2num {
     public static void greater(int a,int b){

@@ -1,4 +1,4 @@
-package FunctionAndMethods;
+
 import java.util.*;
 public class primeNum {
     public static void checkPrimeNum(int a,int count){

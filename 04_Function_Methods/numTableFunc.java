@@ -1,4 +1,3 @@
-package FunctionAndMethods;
 import java.util.*;
 public class numTableFunc {
     public static void table(int num){
