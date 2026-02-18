@@ -1,4 +1,4 @@
-package FunctionAndMethods;
+
 import java.util.*;
 public class AverageOf3num {
     public static void average(int a,int b,int c,int avg){

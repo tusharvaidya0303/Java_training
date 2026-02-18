@@ -1,4 +1,3 @@
-package FunctionAndMethods;
 
 public class Binary_Search {
     public static int BinarySearch(){

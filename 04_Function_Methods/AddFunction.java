@@ -1,4 +1,4 @@
-package FunctionAndMethods;
+
 import java.util.*;
 public class AddFunction {
     public static int addition(int a,int b){
