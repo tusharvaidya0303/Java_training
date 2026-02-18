@@ -1,4 +1,4 @@
-package FunctionAndMethods;
+
 import java.util.*;
 public class evenOdd {
     public static void CheckEvenOdd(int a){
