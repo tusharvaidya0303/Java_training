@@ -3,14 +3,11 @@ public class palindrome_function {
         int number = n;
         int reverse = 0;
         while(number > 0){
-            reverse = reverse * 10 + number % 10;
-            number /= 10;
+            int digit = number % 10;        // Get the last digit
+            reverse = reverse * 10 + digit;
+            number /= 10;                   // Remove the last digit
         }
-        if(reverse == n){
-            return true;
-        }else{
-            return false;
-        }
+        return reverse == n;
     }
 
     public static void main(String[] args) {
