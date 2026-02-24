@@ -15,3 +15,4 @@ public class palindrome_function {
         System.out.println(isPalindrome(123));
     }
 }
+
