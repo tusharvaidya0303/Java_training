@@ -4,18 +4,25 @@ public class twoSum {
         int target = 15;
         int L = 0;
         int R = arr.length-1;
+        int count =0;
         while(L<=R){
-        int x = arr[L] + arr[R];
-            if(x==target){
-                System.out.println("Present");
-                return;
-            }else if(x>target){
+        int sum = arr[L] + arr[R];
+            if(sum==target){
+                System.out.println("Present : "+arr[L]+" + "+arr[R]);
+                // return;
+                count++;
+                L++;         
+                R--;
+            }else if(sum>target){
                 R--;
             }else{
                 L++;
             }
         }
-        System.out.println("Not Present");
-
+        if (count==0) {
+            
+            System.out.println("Not Present");
+        }
+        System.out.println("No.of pairs : "+count);
     }
 }
