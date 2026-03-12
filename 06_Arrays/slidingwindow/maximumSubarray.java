@@ -1,4 +1,3 @@
-package slidingwindow;
 public class maximumSubarray {
     public static void main(String[] args) {
 

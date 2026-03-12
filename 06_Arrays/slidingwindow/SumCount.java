@@ -1,4 +1,4 @@
-package slidingwindow;
+
 public class SumCount {
     public static void main(String[] args) {
 
