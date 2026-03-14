@@ -4,20 +4,33 @@ public class SubArr {
         int total = 0;
         int maxSum = Integer.MIN_VALUE;
         int minSum = Integer.MAX_VALUE;
+        int prefix[] = new int[arr.length];
+
+        prefix[0]=arr[0];
+        for (int i = 1; i < prefix.length; i++) {
+            prefix[i] = prefix[i-1] + arr[i];
+        }
 
         for (int i = 0; i < arr.length; i++) {
             int start = i;
 
             for (int j = i; j < arr.length; j++) {
                 int end = j;
-                int sum = 0;   // reset for every subarray
+                int sum =0;
 
-                for (int k = start; k <= end; k++) {
-                    sum += arr[k];
-                    System.out.print(arr[k] + " ");
+                //Prefix method
+                if (start==0) {
+                    sum = prefix[end];
+                }else{
+                    sum = prefix[end] - prefix[start-1];
                 }
 
-                System.out.print(" Sum = " + sum);
+                // Brute force approach
+                // for (int k = start; k <= end; k++) {
+                //     sum += arr[k];
+                //     System.out.print(arr[k] + " ");
+                // }
+                // System.out.print(" Sum = " + sum);
 
                 // check max
                 if (sum > maxSum) {
@@ -39,9 +52,27 @@ public class SubArr {
         System.out.println("Maximum Sum : " + maxSum);
         System.out.println("Minimum Sum : " + minSum);
     }
+    public static void kadanes(int arr[]){
+        int maxs = Integer.MIN_VALUE;
+        int mins = Integer.MAX_VALUE;
+        int curs = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            curs += arr[i];
+            if(curs<0){
+                curs=0;
+            }
+            maxs = Math.max(curs, maxs);
+            mins = Math.min(curs, mins);
+
+        }
+        System.out.println("Max sum using kadanes is : "+ maxs);
+        System.out.println("Max sum using kadanes is : "+ mins);
+    }
 
     public static void main(String[] args) {
         int arr[] = {2, 4, 6, 8, 10};
         printSubarr(arr);
+        kadanes(arr);
     }
 }
