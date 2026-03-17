@@ -51,6 +51,7 @@ public class SubArr {
         System.out.println("Total SubArrays : " + total);
         System.out.println("Maximum Sum : " + maxSum);
         System.out.println("Minimum Sum : " + minSum);
+        
     }
     public static void kadanes(int arr[]){
         int maxs = Integer.MIN_VALUE;
@@ -59,11 +60,11 @@ public class SubArr {
 
         for (int i = 0; i < arr.length; i++) {
             curs += arr[i];
+            maxs = Math.max(curs, maxs);
+            mins = Math.min(curs, mins);
             if(curs<0){
                 curs=0;
             }
-            maxs = Math.max(curs, maxs);
-            mins = Math.min(curs, mins);
 
         }
         System.out.println("Max sum using kadanes is : "+ maxs);
