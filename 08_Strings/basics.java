@@ -30,6 +30,6 @@ public class basics {
     //indexOf
     // String str = "Hello World";
     // System.out.println(str.indexOf("o"));         //prints index of given character in string
-
+        sc.close();
     }
 }
