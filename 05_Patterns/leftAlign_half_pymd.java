@@ -48,6 +48,15 @@ public class leftAlign_half_pymd {
             System.out.println();
         }
     }
+    void ReverseAlphabetPymd(int n){
+        char c = 'A';
+        for (int i = 1; i<=n ; i++){
+            for(int j = 1;j<=i;j++){
+                System.out.print((char)(c+(n-i)+(j-1)));
+            }
+            System.out.println();
+        }
+    }
     public static void main(String[] args) {
         leftAlign_half_pymd obj = new leftAlign_half_pymd();
         obj.printPymd(5);
@@ -61,5 +70,7 @@ public class leftAlign_half_pymd {
         obj.AlphabetInvertedPymd(5);
         System.out.println("Same Alphabet");
         obj.AlphabetSamePymd(5);
+        System.out.println("Reverse Alphabet");
+        obj.ReverseAlphabetPymd(5);
     }
 }
