@@ -1,12 +1,12 @@
 public class HollowRect {
 
-    void printHollowRect(int totRows, int totCols) {
+    public static void printHollowRect(int n) {
         //outer loop
-        for (int i = 1; i <= totRows; i++) {
+        for (int i = 1; i <= n; i++) {
             //inner column
-            for (int j = 1; j <= totCols; j++) {
+            for (int j = 1; j <= n; j++) {
                 //cell - [i,j]
-                if (i == 1 || i == totRows || j == 1 || j == totCols) {
+                if (i == 1 || i == n || j == 1 || j == n) {
                     //boundery cells
                     System.out.print("*");
                 } else {
@@ -18,7 +18,6 @@ public class HollowRect {
     }
 
     public static void main(String[] args) {
-        HollowRect obj = new HollowRect();
-        obj.printHollowRect(4, 5);
+        printHollowRect(5);
     }
 }
