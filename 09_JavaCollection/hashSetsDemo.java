@@ -25,5 +25,11 @@ public class hashSetsDemo {
         set3.add(20);
         set3.add(30);
         System.out.println(set3);      //Guarantee of order and sorted use binary search
+
+        Set<Integer> set4 = new TreeSet<>((a,b)->b-a); //Descending order
+        set4.add(10);
+        set4.add(20);
+        set4.add(30);
+        System.out.println(set4);
     }
 }
