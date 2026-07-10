@@ -1,5 +1,3 @@
-package Arrayrotation;
-
 public class threeRotation {
     public static void main(String[] args) {
 
